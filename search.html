@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+
+  <!--=============== REMIX ICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>HESTYA</title>
+</head>
+
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <i class="ri-leaf-line nav__logo-icon"></i>
+        <span class="company-name">HESTYA</span>
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="./index.html" class="nav__link">Accueil</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Nos services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#products" class="nav__link">L'équipe</a>
+          </li>
+          <li class="nav__item">
+            <a href="#faqs" class="nav__link">Contact</a>
+          </li>
+          <li class="nav__item">
+            <a href="./search.html" class="nav__link active-link">Search</a>
+          </li>
+          <!-- <li class="nav__item">
+                                    <a href="#contact" class="nav__link">Contact Us</a>
+                                </li> -->
+        </ul>
+
+        <a href="" class="nav__connection">
+          <button class="nav_connection_button">Connexion</button>
+        </a>
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+      </div>
+
+      <div class="nav__btns">
+        <!-- Theme change button -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <!-- Burger menu -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!--==================== SEARCH ====================-->
+    <section class="program__page__section section container">
+      <p class="offers__card__content-city">
+        <span class="offers__card__content-program-name-text">
+          La maison de la mer
+        </span>
+        <i class="ri-map-pin-line offers__card__content-city-icon"></i>
+        <span class="offers__card__content-city-text">
+          3 PLACE ANATOLE FRANCE, NANTES (44000)
+        </span>
+      </p>
+
+      <div class="program__page__header">
+        <div class="program__page__container">
+          <div class="program__page__img">
+            <img src="assets/img/pgm7-perspective.png" alt="" class="program__page__img" />
+          </div>
+          <div class="offers__card__content">
+            <h3 class="offers__card__content-program-name">
+              <span class="offers__card__content-program-name-text">
+                La maison de la mer
+              </span>
+            </h3>
+            <p class="offers__card__content-price">
+              <span class="offers__card__content-price-text">
+                à partir de 161 000 €
+              </span>
+            </p>
+
+            <div class="offers__card__taxations">
+              <div class="offers__card__taxation">
+                <i class="ri-road-map-line offers__card__taxation-icon"></i>
+                <span class="offers__card__taxation-text"> Zone B1 </span>
+              </div>
+              <div class="offers__card__taxation">
+                <i class="ri-patreon-line offers__card__taxation-icon"></i>
+                <span class="offers__card__taxation-text"> Pinel </span>
+              </div>
+              <div class="offers__card__taxation">
+                <i class="ri-home-4-line offers__card__taxation-icon"></i>
+                <span class="offers__card__taxation-text">
+                  de 1 à 2 pièces
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="table__section section container">
+      <div class="table__lotsAvailable">
+        <h2 id="availablesLots">10 lots disponible</h2>
+      </div>
+
+      <div class="table">
+        <div class="table__colomn_description">Pièces</div>
+        <div>3</div>
+        <div>3</div>
+        <div>3</div>
+        <div>3</div>
+
+        <div class="table__colomn_description">Surface</div>
+        <div>45 m2</div>
+        <div>50 m2</div>
+        <div>49 m2</div>
+        <div>63 m2</div>
+
+        <div class="table__colomn_description">Etage</div>
+        <div>1 er</div>
+        <div>2 eme</div>
+        <div>3 eme</div>
+        <div>4 eme</div>
+
+        <div class="table__colomn_description">Annexe(s)</div>
+        <div>Cave</div>
+        <div>Cave</div>
+        <div>Cellier</div>
+        <div>Cellier</div>
+
+        <div class="table__colomn_description">Dispositif</div>
+        <div>Pinel, Anru</div>
+        <div>Anru</div>
+        <div>Pinel</div>
+        <div>Pinel</div>
+
+        <div class="table__colomn_description">Prix</div>
+        <div>161 000 €</div>
+        <div>221 000 €</div>
+        <div>421 000 €</div>
+        <div>421 000 €</div>
+      </div>
+
+      <div class="table__lot_details__container">
+        <div class="table__lot_details__left">
+          <div>
+            <span>Numéro de lot : </span>
+            <span class="table__lot_details__values">01A230</span>
+          </div>
+          <div>
+            <span>Type : </span>
+            <span class="table__lot_details__values">Appartement</span>
+          </div>
+          <div>
+            <span>Orientation : </span>
+            <span class="table__lot_details__values">S/E</span>
+          </div>
+          <div>
+            <span>Livraison : </span>
+            <span class="table__lot_details__values">3T 2024</span>
+          </div>
+          <div>
+            <span>Annexe : </span>
+            <span class="table__lot_details__values">Parking int. N*01P114 (Valeur : 15000 $ (TVA 20%))</span>
+          </div>
+        </div>
+
+        <div class="table__lot_details__right">
+          <div>
+            <span>Dispositif :</span>
+            <span class="table__lot_details__values">Pinel, Anru</span>
+          </div>
+          <div>
+            <span>Prix TTC: (TVA 20%)</span>
+            <span class="table__lot_details__values"> <span class="table__lot_details__values_price"> 161 000 € </span>
+              (annexes incluses)</span>
+          </div>
+          <div class="table__lot_details__plan_container">
+            <span>Voir le plan du lot</span>
+            <span class="table__lot_details__values">
+              <a href="" class="box__documents__content__item__download__link fontSize-2rem">
+                <i class="ri-home-8-line"></i>
+              </a>
+            </span>
+          </div>
+          <div>
+            <a href="" class="nav__connection">
+              <button class="table__lot_details__options_button">Poser une option</button>
+            </a>
+          </div>
+        </div>
+    </section>
+
+    <section class="section container">
+      <div class="box__documents">
+        <!-- <div class="box__documents__title">
+          <h2>Documents</h2>
+        </div> -->
+
+        <div class="box__documents__container">
+          <div class="box__documents__contract">
+            <h3>Documents contractuels</h3>
+            <div class="box__documents__content__items">
+
+
+              <div class="box__documents__content__item">
+                <div class="box__documents__content__item__title">
+                  <i class="ri-file-line"></i>
+                  <span>
+                    Liasse contractuelle d'Appartement
+                  </span>
+                </div>
+                <div class="box__documents__content__item__download">
+                  <a href="" class="box__documents__content__item__download__link">
+                    <i class="ri-download-line"></i>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="box__documents__presentation">
+
+            <h3>Documents Présentation</h3>
+            <div class="box__documents__content__items">
+
+              <div class="box__documents__content__item">
+                <div class="box__documents__content__item__title">
+                  <i class="ri-file-line"></i>
+                  <span>
+                    Plan du lot
+                  </span>
+                </div>
+                <div class="box__documents__content__item__download">
+                  <a href="" class="box__documents__content__item__download__link">
+                    <i class="ri-download-line"></i>
+                  </a>
+                </div>
+              </div>
+
+
+              <div class="box__documents__content__item">
+                <div class="box__documents__content__item__title">
+                  <i class="ri-file-line"></i>
+                  <span>
+                    Plaquette commerciale
+                  </span>
+                </div>
+                <div class="box__documents__content__item__download">
+                  <a href="" class="box__documents__content__item__download__link">
+                    <i class="ri-download-line"></i>
+                  </a>
+                </div>
+              </div>
+
+
+
+
+
+              <div class="box__documents__content__item">
+                <div class="box__documents__content__item__title">
+                  <i class="ri-file-line"></i>
+                  <span>
+                    Présentation du programme
+                  </span>
+                </div>
+                <div class="box__documents__content__item__download">
+                  <a href="" class="box__documents__content__item__download__link">
+                    <i class="ri-download-line"></i>
+                  </a>
+                </div>
+              </div>
+
+
+              <div class="box__documents__content__item">
+                <div class="box__documents__content__item__title">
+                  <i class="ri-file-line"></i>
+                  <span>
+                    Notice
+                  </span>
+                </div>
+                <div class="box__documents__content__item__download">
+                  <a href="" class="box__documents__content__item__download__link">
+                    <i class="ri-download-line"></i>
+                  </a>
+                </div>
+              </div>
+
+
+              <div class="box__documents__content__item">
+                <div class="box__documents__content__item__title">
+                  <i class="ri-file-line"></i>
+                  <span>
+                    Plan de masse
+                  </span>
+                </div>
+                <div class="box__documents__content__item__download">
+                  <a href="" class="box__documents__content__item__download__link">
+                    <i class="ri-download-line"></i>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+    </section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer section">
+    <div class="footer__container container grid">
+      <div class="footer__content">
+        <a href="#" class="footer__logo">
+          <i class="ri-leaf-line footer__logo-icon"></i>
+          <span class="company-name">HESTYA</span>
+        </a>
+
+        <h3 class="footer__logo-description">Donnos vie à votre réve.</h3>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">A propos</h3>
+
+        <ul class="footer__data">
+          <li class="footer__information">Nouveauté</li>
+          <li class="footer__information">Mentions légales</li>
+          <li class="footer__information">Contact</li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Contact Us</h3>
+
+        <ul class="footer__data">
+          <a href="https://www.facebook.com/" class="footer__information footer__social-link">
+            <i class="ri-facebook-fill footer__social-icon"></i>
+            <li class="footer__information">facebook</li>
+          </a>
+
+          <a href="https://www.instagram.com/" class="footer__information footer__social-link">
+            <i class="ri-instagram-line footer__social-icon"></i>
+            <li class="footer__information">instagram</li>
+          </a>
+          <a href="https://twitter.com/" class="footer__information footer__social-link">
+            <i class="ri-twitter-fill footer__social-icon"></i>
+            <li class="footer__information">twitter</li>
+          </a>
+          <a href="https://www.linkedin.com/" class="footer__information footer__social-link">
+            <i class="ri-linkedin-line footer__social-icon"></i>
+            <li class="footer__information">Linkedin</li>
+          </a>
+          <a href="https://www.youtube.com/" class="footer__information footer__social-link">
+            <i class="ri-youtube-fill footer__social-icon"></i>
+            <li class="footer__information">Youtube</li>
+          </a>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Soyez informé</h3>
+
+        <div class="footer__subscribe">
+          <input type="email" placeholder="saisissez votre email" class="footer__input" />
+
+          <button class="button button--flex footer__button">
+            <i class="ri-arrow-right-up-line button__icon"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <p class="footer__copy">
+      &#169; <span class="company-name">HESTYA</span> All rigths reserved
+    </p>
+  </footer>
+
+  <!--=============== SCROLL UP ===============-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-fill scrollup__icon"></i>
+  </a>
+
+  <!--=============== SCROLL REVEAL ===============-->
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+
+  <!--=============== REMIX ICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>HESTYA</title>
+</head>
+
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <i class="ri-leaf-line nav__logo-icon"></i> <span class="company-name">HESTYA</span>
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="./index.html" class="nav__link active-link">Accueil</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Nos services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#products" class="nav__link">L'équipe</a>
+          </li>
+          <li class="nav__item">
+            <a href="#faqs" class="nav__link">Contact</a>
+          </li>
+          <li class="nav__item">
+            <a href="./search.html" class="nav__link">Search</a>
+          </li>
+          <!-- <li class="nav__item">
+                                    <a href="#contact" class="nav__link">Contact Us</a>
+                                </li> -->
+        </ul>
+
+        <a href="" class="nav__connection">
+          <button class="nav_connection_button">Connexion</button>
+        </a>
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+      </div>
+
+      <div class="nav__btns">
+        <!-- Theme change button -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <!-- Burger menu -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+        <img src="assets/img/home_two.jpg" alt="" class="home__img" />
+
+        <div class="home__data">
+          <h1 class="home__title">
+            Votre projet est unique <br />
+            Nous vous accompagnons pour le réaliser
+          </h1>
+          <p class="home__description">
+            18 ans d'expertise dans le marché de l'immobilier et le suivi de
+            financement du service de votre projet de vie
+          </p>
+          <!-- <a href="#about" class="button button--flex">
+            Explore <i class="ri-arrow-right-down-line button__icon"></i>
+          </a> -->
+        </div>
+
+        <!-- <div class="home__social">
+            <span class="home__social-follow">Follow Us</span>
+
+            <div class="home__social-links">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-twitter-fill"></i>
+              </a>
+            </div>
+          </div> -->
+      </div>
+    </section>
+
+    <!--==================== Search ====================-->
+    <!-- <section class="search">
+      <form action="" class="search__form search__container">
+        <div class="">
+          <div class="search__content">
+            <select >
+              <option value="">Objectif</option>
+              <option value="Maison">Pour investir</option>
+              <option value="Appartement">Pour habiter</option>
+            </select>
+          </div>
+
+        </div>
+      </form>
+
+    </section> -->
+
+    <!--==================== Accompagnement ====================-->
+    <section class="accompagnement section container">
+      <h2 class="section__title-center section__title-center-big-text">Comment nous vous accompagnons</h2>
+      <div class="accompagnement__cards">
+        <div class="accompagnement__card">
+          <i class="ri-home-8-line accompagnement__card-icon"></i>
+
+          <h3 class="accompagnement__card-title">
+            Primo-accèdent
+          </h3>
+          <p class="accompagnement__card-description">
+            Solution clés en main de la recherche </br> de votre bien à la signature notaire
+          </p>
+        </div>
+
+        <div class="accompagnement__card">
+          <i class="ri-home-8-line accompagnement__card-icon"></i>
+          <h3 class="accompagnement__card-title">
+            Investisseur
+          </h3>
+          <p class="accompagnement__card-description">
+            Solution d'optimisation de votre invesstissement locatif
+          </p>
+        </div>
+
+        <div class="accompagnement__card">
+          <i class="ri-home-8-line accompagnement__card-icon"></i>
+
+          <h3 class="accompagnement__card-title">
+            Gratuité de nos services
+          </h3>
+          <p class="accompagnement__card-description">
+            Vous bénéficiez de prix promoteur direct promoteur, pas de frais de négociation ou d’agence, pas de frais de
+            dossier et aucuns honoraires à payer.
+          </p>
+        </div>
+
+        <div class="accompagnement__card">
+          <i class="ri-home-8-line accompagnement__card-icon"></i>
+
+          <h3 class="accompagnement__card-title">
+            Objectivités et indépendances
+          </h3>
+          <p class="accompagnement__card-description">
+            Nos clients c’est vous, notre travail est de vous faire bénéficiez dans le cadre de vos recherches
+            d’appartements des meilleures offres qui arrivent ou sont déjà actuellement sur le marché quel que soit le
+            promoteur.
+          </p>
+        </div>
+
+        <div class="accompagnement__card">
+          <i class="ri-home-8-line accompagnement__card-icon"></i>
+          <h3 class="accompagnement__card-title">
+            Financement de votre projet
+          </h3>
+          <p class="accompagnement__card-description">
+            Nous avons une cellule de courtage en prêt immobilier
+          </p>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!--==================== Avant Premiere ====================-->
+    <section class="avant-premiere section container">
+      <h2 class="section__title-center section__title-center-big-text">Avant-premières</h2>
+
+      <div class="avant-premiere__cards">
+
+        <div class="avant-premiere__card">
+          <h3 class="avant-premiere__card-title">
+            <span class="avant-premiere__card-title-text">
+              Résidence Apage
+            </span>
+          </h3>
+          <img src="assets/img/program-perspective.png" alt="" class="avant-premiere__card-img" />
+          <div class="avant-premiere__card-footer">
+            <div class="avant-premiere__card-footer__city">
+              <i class="ri-map-pin-line avant-premiere__card-footer__city-icon"></i>
+              <span class="avant-premiere__card-footer__city-text">
+                Paris
+              </span>
+            </div>
+            <div class="avant-premiere__card-footer__taxations">
+              <div class="avant-premiere__card-footer__taxation">
+                <i class="ri-patreon-line avant-premiere__card-footer__taxation-icon"></i>
+                <span class="avant-premiere__card-footer__taxation-text">
+                  Pinel
+                </span>
+              </div>
+              <div class="avant-premiere__card-footer__taxation">
+                <i class="ri-road-map-line avant-premiere__card-footer__taxation-icon"></i>
+                <span class="avant-premiere__card-footer__taxation-text">
+                  Zone A
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="avant-premiere__card">
+          <h3 class="avant-premiere__card-title">
+            <span class="avant-premiere__card-title-text">
+              Les terrasses
+            </span>
+          </h3>
+          <img src="assets/img/pgm2-perspective.png" alt="" class="avant-premiere__card-img" />
+          <div class="avant-premiere__card-footer">
+            <div class="avant-premiere__card-footer__city">
+              <i class="ri-map-pin-line avant-premiere__card-footer__city-icon"></i>
+              <span class="avant-premiere__card-footer__city-text">
+                Paris
+              </span>
+            </div>
+            <div class="avant-premiere__card-footer__taxations">
+              <div class="avant-premiere__card-footer__taxation">
+                <i class="ri-patreon-line avant-premiere__card-footer__taxation-icon"></i>
+                <span class="avant-premiere__card-footer__taxation-text">
+                  Pinel
+                </span>
+              </div>
+              <div class="avant-premiere__card-footer__taxation">
+                <i class="ri-road-map-line avant-premiere__card-footer__taxation-icon"></i>
+                <span class="avant-premiere__card-footer__taxation-text">
+                  Zone A
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="avant-premiere__card">
+          <h3 class="avant-premiere__card-title">
+            <span class="avant-premiere__card-title-text">
+              Le Jade
+            </span>
+          </h3>
+          <img src="assets/img/pgm-perspective-3.png" alt="" class="avant-premiere__card-img" />
+          <div class="avant-premiere__card-footer">
+            <div class="avant-premiere__card-footer__city">
+              <i class="ri-map-pin-line avant-premiere__card-footer__city-icon"></i>
+              <span class="avant-premiere__card-footer__city-text">
+                Rennes
+              </span>
+            </div>
+            <div class="avant-premiere__card-footer__taxations">
+              <div class="avant-premiere__card-footer__taxation">
+                <i class="ri-patreon-line avant-premiere__card-footer__taxation-icon"></i>
+                <span class="avant-premiere__card-footer__taxation-text">
+                  Pinel
+                </span>
+              </div>
+              <div class="avant-premiere__card-footer__taxation">
+                <i class="ri-road-map-line avant-premiere__card-footer__taxation-icon"></i>
+                <span class="avant-premiere__card-footer__taxation-text">
+                  Zone A
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="avant-premiere__card">
+          <h3 class="avant-premiere__card-title">
+            <span class="avant-premiere__card-title-text">
+              VILLA KOKOA
+            </span>
+          </h3>
+          <img src="assets/img/pgm8-perspective.png" alt="" class="avant-premiere__card-img" />
+          <div class="avant-premiere__card-footer">
+            <div class="avant-premiere__card-footer__city">
+              <i class="ri-map-pin-line avant-premiere__card-footer__city-icon"></i>
+              <span class="avant-premiere__card-footer__city-text">
+                UZES
+              </span>
+            </div>
+            <div class="avant-premiere__card-footer__taxations">
+              <div class="avant-premiere__card-footer__taxation">
+                <i class="ri-road-map-line avant-premiere__card-footer__taxation-icon"></i>
+                <span class="avant-premiere__card-footer__taxation-text">
+                  Zone C
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!------------------------------------------------------ Stay informed ------------------------------------------------------->
+    <section class="stay-informed section container">
+      <p class="stay-informed__text">
+        Rester informé du lancement
+      </p>
+    </section>
+
+    <!------------------------------------------------------ Offers ------------------------------------------------------->
+    <section class="about section container" id="offers">
+      <h2 class="section__title-center section__title-center-big-text">Nos offres les plus récentes</h2>
+      <div class="offers__cards">
+        <div class="offers__card">
+          <div class="offers__card__img">
+            <img src="assets/img/pgm2-perspective.png" alt="" class="offers__card__img" />
+          </div>
+          <div class="offers__card__content">
+            <h3 class="offers__card__content-program-name">
+              <span class="offers__card__content-program-name-text">
+                Les terrasses
+              </span>
+            </h3>
+            <p class="offers__card__content-price">
+              <span class="offers__card__content-price-text">
+                à partir de 100 000 €
+              </span>
+            </p>
+            <p class="offers__card__content-city">
+              <i class="ri-map-pin-line offers__card__content-city-icon"></i>
+              <span class="offers__card__content-city-text">
+                21 Rue Frederic PETIT, AMIENS
+              </span>
+
+            <div class="offers__card__taxations">
+              <div class="offers__card__taxation">
+                <i class="ri-patreon-line offers__card__taxation-icon"></i>
+                <span class="offers__card__taxation-text">
+                  Pinel
+                </span>
+              </div>
+              <div class="offers__card__taxation">
+                <i class="ri-road-map-line offers__card__taxation-icon"></i>
+                <span class="offers__card__taxation-text">
+                  Zone A
+                </span>
+              </div>
+              <div class="offers__card__taxation">
+                <i class="ri-patreon-line offers__card__taxation-icon"></i>
+                <span class="offers__card__taxation-text">
+                  Pinel
+                </span>
+              </div>
+              <div class="offers__card__taxation">
+                <i class="ri-home-4-line offers__card__taxation-icon"></i>
+                <span class="offers__card__taxation-text">
+                  de 1 à 5 pièces
+                </span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="offers__card">
+          <div class="offers__card__img">
+            <img src="assets/img/pgm7-perspective.png" alt="" class="offers__card__img" />
+          </div>
+          <div class="offers__card__content">
+            <h3 class="offers__card__content-program-name">
+              <span class="offers__card__content-program-name-text">
+                La maison de la mer
+              </span>
+            </h3>
+            <p class="offers__card__content-price">
+              <span class="offers__card__content-price-text">
+                à partir de 161 000 €
+              </span>
+            </p>
+            <p class="offers__card__content-city">
+              <i class="ri-map-pin-line offers__card__content-city-icon"></i>
+              <span class="offers__card__content-city-text">
+                3 PLACE ANATOLE FRANCE, NANTES (44000)
+              </span>
+
+            <div class="offers__card__taxations">
+              <div class="offers__card__taxation">
+                <i class="ri-road-map-line offers__card__taxation-icon"></i>
+                <span class="offers__card__taxation-text">
+                  Zone B1
+                </span>
+              </div>
+              <div class="offers__card__taxation">
+                <i class="ri-patreon-line offers__card__taxation-icon"></i>
+                <span class="offers__card__taxation-text">
+                  Pinel
+                </span>
+              </div>
+              <div class="offers__card__taxation">
+                <i class="ri-home-4-line offers__card__taxation-icon"></i>
+                <span class="offers__card__taxation-text">
+                  de 1 à 2 pièces
+                </span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="offers__card">
+          <div class="offers__card__img">
+            <img src="assets/img/pgm5-perspective.png" alt="" class="offers__card__img" />
+          </div>
+          <div class="offers__card__content">
+            <h3 class="offers__card__content-program-name">
+              <span class="offers__card__content-program-name-text">
+                LE CHENANSON
+              </span>
+            </h3>
+            <p class="offers__card__content-price">
+              <span class="offers__card__content-price-text">
+                à partir de 179 000 €
+              </span>
+            </p>
+            <p class="offers__card__content-city">
+              <i class="ri-map-pin-line offers__card__content-city-icon"></i>
+              <span class="offers__card__content-city-text">
+                4 Rue Jean Abelanet, PERPIGNAN (66100)
+              </span>
+
+            <div class="offers__card__taxations">
+              <div class="offers__card__taxation">
+                <i class="ri-patreon-line offers__card__taxation-icon"></i>
+                <span class="offers__card__taxation-text">
+                  Pinel
+                </span>
+              </div>
+
+              <div class="offers__card__taxation">
+                <i class="ri-home-4-line offers__card__taxation-icon"></i>
+                <span class="offers__card__taxation-text">
+                  de 1 à 3 pièces
+                </span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="offers__card">
+          <div class="offers__card__img">
+            <img src="assets/img/pgm6-perspective.png" alt="" class="offers__card__img" />
+          </div>
+          <div class="offers__card__content">
+            <h3 class="offers__card__content-program-name">
+              <span class="offers__card__content-program-name-text">
+                AVANT-SEINE
+              </span>
+            </h3>
+            <p class="offers__card__content-price">
+              <span class="offers__card__content-price-text">
+                à partir de 325 000 €
+              </span>
+            </p>
+            <p class="offers__card__content-city">
+              <i class="ri-map-pin-line offers__card__content-city-icon"></i>
+              <span class="offers__card__content-city-text">
+                2 RUE DE LA GRANDE PINTE, LE PORT-MARLY (78560)
+              </span>
+
+            <div class="offers__card__taxations">
+              <div class="offers__card__taxation">
+                <i class="ri-patreon-line offers__card__taxation-icon"></i>
+                <span class="offers__card__taxation-text">
+                  Pinel
+                </span>
+              </div>
+              <div class="offers__card__taxation">
+                <i class="ri-road-map-line offers__card__taxation-icon"></i>
+                <span class="offers__card__taxation-text">
+                  Zone A
+                </span>
+              </div>
+              <div class="offers__card__taxation">
+                <i class="ri-patreon-line offers__card__taxation-icon"></i>
+                <span class="offers__card__taxation-text">
+                  ANRU
+                </span>
+              </div>
+              <div class="offers__card__taxation">
+                <i class="ri-home-4-line offers__card__taxation-icon"></i>
+                <span class="offers__card__taxation-text">
+                  de 2 à 3 pièces
+                </span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </section>
+
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section container" id="about">
+      <div class="about__container grid">
+
+        <div class="about__data">
+          <h3 class="section__title section__title-center about__title">
+            Votre projet immobilier à votre portée
+          </h3>
+
+          <p class="about__description">
+            Chaque projet immobilier est unique, nous avons mis en place à un accompagnement personnalisée pour chacun
+            de nos clients
+          </p>
+
+
+          <a href="#" class="button--link button--flex about__button">
+            Contactez nous<i class="ri-arrow-right-down-line button__icon"></i>
+          </a>
+        </div>
+
+        <img src="assets/img/background.jpg" alt="" class="about__img" />
+
+      </div>
+    </section>
+
+    <!--==================== STEPS ====================-->
+    <!-- <section class="steps section container">
+      <div class="steps__bg">
+        <h2 class="section__title-center steps__title">
+          Steps to start your <br />
+          plants off right
+        </h2>
+
+        <div class="steps__container grid">
+          <div class="steps__card">
+            <div class="steps__card-number">01</div>
+            <h3 class="steps__card-title">Choose Plant</h3>
+            <p class="steps__card-description">
+              We have several varieties plants you can choose from.
+            </p>
+          </div>
+
+          <div class="steps__card">
+            <div class="steps__card-number">02</div>
+            <h3 class="steps__card-title">Place an order</h3>
+            <p class="steps__card-description">
+              Once your order is set, we move to the next step which is the
+              shipping.
+            </p>
+          </div>
+
+          <div class="steps__card">
+            <div class="steps__card-number">03</div>
+            <h3 class="steps__card-title">Get plants delivered</h3>
+            <p class="steps__card-description">
+              Our delivery process is easy, you receive the plant direct to
+              your door.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!--==================== PRODUCTS ====================-->
+    <!-- <section class="product section container" id="products">
+      <h2 class="section__title-center">
+        Check out our <br />
+        products
+      </h2>
+
+      <p class="product__description">
+        Here are some selected plants from our showroom, all are in excellent
+        shape and has a long life span. Buy and enjoy best quality.
+      </p>
+
+      <div class="product__container grid">
+        <article class="product__card">
+          <div class="product__circle"></div>
+
+          <img src="assets/img/product1.png" alt="" class="product__img" />
+
+          <h3 class="product__title">Cacti Plant</h3>
+          <span class="product__price">$19.99</span>
+
+          <button class="button--flex product__button">
+            <i class="ri-shopping-bag-line"></i>
+          </button>
+        </article>
+
+        <article class="product__card">
+          <div class="product__circle"></div>
+
+          <img src="assets/img/product2.png" alt="" class="product__img" />
+
+          <h3 class="product__title">Cactus Plant</h3>
+          <span class="product__price">$11.99</span>
+
+          <button class="button--flex product__button">
+            <i class="ri-shopping-bag-line"></i>
+          </button>
+        </article>
+
+        <article class="product__card">
+          <div class="product__circle"></div>
+
+          <img src="assets/img/product3.png" alt="" class="product__img" />
+
+          <h3 class="product__title">Aloe Vera Plant</h3>
+          <span class="product__price">$7.99</span>
+
+          <button class="button--flex product__button">
+            <i class="ri-shopping-bag-line"></i>
+          </button>
+        </article>
+
+        <article class="product__card">
+          <div class="product__circle"></div>
+
+          <img src="assets/img/product4.png" alt="" class="product__img" />
+
+          <h3 class="product__title">Succulent Plant</h3>
+          <span class="product__price">$5.99</span>
+
+          <button class="button--flex product__button">
+            <i class="ri-shopping-bag-line"></i>
+          </button>
+        </article>
+
+        <article class="product__card">
+          <div class="product__circle"></div>
+
+          <img src="assets/img/product5.png" alt="" class="product__img" />
+
+          <h3 class="product__title">Succulent Plant</h3>
+          <span class="product__price">$10.99</span>
+
+          <button class="button--flex product__button">
+            <i class="ri-shopping-bag-line"></i>
+          </button>
+        </article>
+
+        <article class="product__card">
+          <div class="product__circle"></div>
+
+          <img src="assets/img/product6.png" alt="" class="product__img" />
+
+          <h3 class="product__title">Green Plant</h3>
+          <span class="product__price">$8.99</span>
+
+          <button class="button--flex product__button">
+            <i class="ri-shopping-bag-line"></i>
+          </button>
+        </article>
+      </div>
+    </section> -->
+
+    <!--==================== QUESTIONS ====================-->
+    <section class="questions section" id="faqs">
+      <div class="container">
+        <h2 class="questions__title">
+          Questions fréquentes
+        </h2>
+        <p class="questions__title questions__title-description">
+          Voici quelques réponses aux questions les plus courantes. Si vous avez d'autres questions, contactez-nous !
+        </p>
+      </div>
+
+
+
+      <div class="questions__container container grid">
+        <div class="questions__group">
+          <div class="questions__item">
+            <header class="questions__header">
+              <i class="ri-add-line questions__icon"></i>
+              <h3 class="questions__item-title">
+                C'est quoi <span class="company-name">HESTYA</span> ?
+              </h3>
+            </header>
+
+            <div class="questions__content">
+              <p class="questions__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, ex nemo libero voluptates
+                veritatis animi sit porro minus quas ut illum esse minima aliquid dolore dolores repellendus odit quam
+                hic.
+              </p>
+            </div>
+          </div>
+
+          <div class="questions__item">
+            <header class="questions__header">
+              <i class="ri-add-line questions__icon"></i>
+              <h3 class="questions__item-title">
+                Pourquoi nous choisir ?
+              </h3>
+            </header>
+
+            <div class="questions__content">
+              <p class="questions__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptates repellat dolor ut hic,
+                omnis delectus atque in doloribus eum ad obcaecati nihil adipisci accusantium a earum placeat, nam rem?
+              </p>
+            </div>
+          </div>
+
+          <div class="questions__item">
+            <header class="questions__header">
+              <i class="ri-add-line questions__icon"></i>
+              <h3 class="questions__item-title">
+                Quels sont les statuts ?
+              </h3>
+            </header>
+
+            <div class="questions__content">
+              <p class="questions__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis officiis sapiente in, totam odit
+                alias placeat autem sed itaque commodi dignissimos laudantium! Placeat voluptatibus ipsam corporis
+                obcaecati labore tenetur? Reiciendis.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="questions__group">
+          <div class="questions__item">
+            <header class="questions__header">
+              <i class="ri-add-line questions__icon"></i>
+              <h3 class="questions__item-title">Une autre question ?</h3>
+            </header>
+
+            <div class="questions__content">
+              <p class="questions__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere neque soluta quod ab repellendus ipsa
+                omnis veritatis, enim velit praesentium quam pariatur magni commodi doloribus et iusto quidem excepturi!
+                Soluta.
+              </p>
+            </div>
+          </div>
+
+          <div class="questions__item">
+            <header class="questions__header">
+              <i class="ri-add-line questions__icon"></i>
+              <h3 class="questions__item-title">Une autre question ?</h3>
+            </header>
+
+            <div class="questions__content">
+              <p class="questions__description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis fugit debitis ipsam porro,
+                consequuntur quod minima deserunt impedit qui mollitia, laboriosam ea. Tempora incidunt error numquam
+                beatae repudiandae a fuga?
+              </p>
+            </div>
+          </div>
+
+          <div class="questions__item">
+            <header class="questions__header">
+              <i class="ri-add-line questions__icon"></i>
+              <h3 class="questions__item-title">
+                Une dernière question ?
+              </h3>
+            </header>
+
+            <div class="questions__content">
+              <p class="questions__description">
+                Plants are easy way to add color energy and transform your
+                space but which planet is for you. Choosing the right plant.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== CONTACT ====================-->
+    <!-- <section class="contact section container" id="contact">
+      <div class="contact__container grid">
+        <div class="contact__box">
+          <h2 class="section__title">
+            Reach out to us today <br />
+            via any of the given <br />
+            information
+          </h2>
+
+          <div class="contact__data">
+            <div class="contact__information">
+              <h3 class="contact__subtitle">Call us for instant support</h3>
+              <span class="contact__description">
+                <i class="ri-phone-line contact__icon"></i>
+                +999 888 777
+              </span>
+            </div>
+
+            <div class="contact__information">
+              <h3 class="contact__subtitle">Write us by mail</h3>
+              <span class="contact__description">
+                <i class="ri-mail-line contact__icon"></i>
+                user@email.com
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <form action="" class="contact__form">
+          <div class="contact__inputs">
+            <div class="contact__content">
+              <input type="email" placeholder=" " class="contact__input" />
+              <label for="" class="contact__label">Email</label>
+            </div>
+
+            <div class="contact__content">
+              <input type="text" placeholder=" " class="contact__input" />
+              <label for="" class="contact__label">Subject</label>
+            </div>
+
+            <div class="contact__content contact__area">
+              <textarea name="message" placeholder=" " class="contact__input"></textarea>
+              <label for="" class="contact__label">Message</label>
+            </div>
+          </div>
+
+          <button class="button button--flex">
+            Send Message
+            <i class="ri-arrow-right-up-line button__icon"></i>
+          </button>
+        </form>
+      </div>
+    </section> -->
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer section">
+    <div class="footer__container container grid">
+      <div class="footer__content">
+        <a href="#" class="footer__logo">
+          <i class="ri-leaf-line footer__logo-icon"></i> <span class="company-name">HESTYA</span>
+        </a>
+
+        <h3 class="footer__logo-description">
+          Donnos vie à votre réve.
+        </h3>
+
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">A propos</h3>
+
+        <ul class="footer__data">
+          <li class="footer__information">Nouveauté</li>
+          <li class="footer__information">Mentions légales</li>
+          <li class="footer__information">Contact</li>
+
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Contact Us</h3>
+
+        <ul class="footer__data">
+
+          <a href="https://www.facebook.com/" class="footer__information footer__social-link">
+            <i class="ri-facebook-fill footer__social-icon"></i>
+            <li class="footer__information"> facebook</li>
+          </a>
+
+          <a href="https://www.instagram.com/" class="footer__information footer__social-link">
+            <i class="ri-instagram-line footer__social-icon"></i>
+            <li class="footer__information">instagram</li>
+          </a>
+          <a href="https://twitter.com/" class="footer__information footer__social-link">
+            <i class="ri-twitter-fill footer__social-icon"></i>
+            <li class="footer__information">twitter</li>
+          </a>
+          <a href="https://www.linkedin.com/" class="footer__information footer__social-link">
+            <i class="ri-linkedin-line footer__social-icon"></i>
+            <li class="footer__information">Linkedin</li>
+          </a>
+          <a href="https://www.youtube.com/" class="footer__information footer__social-link">
+            <i class="ri-youtube-fill footer__social-icon"></i>
+            <li class="footer__information">Youtube</li>
+          </a>
+
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Soyez informé</h3>
+
+        <div class="footer__subscribe">
+          <input type="email" placeholder="saisissez votre email" class="footer__input" />
+
+          <button class="button button--flex footer__button">
+            <i class="ri-arrow-right-up-line button__icon"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <p class="footer__copy">&#169; <span class="company-name">HESTYA</span> All rigths reserved</p>
+  </footer>
+
+  <!--=============== SCROLL UP ===============-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-fill scrollup__icon"></i>
+  </a>
+
+  <!--=============== SCROLL REVEAL ===============-->
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
